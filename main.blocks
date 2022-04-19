@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="bw8~d$k?Um-[:F9?J)At">lightsOn</variable></variables><block type="input_on_sound" id="f$@PgOVim5)u?%qqyKPG" x="0" y="0"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="variables_set" id="hp,-1Y@1*=)z64MOBG,T"><field name="VAR" id="bw8~d$k?Um-[:F9?J)At">lightsOn</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="logic_negate" id="[]_R2TDInl%$Rg^0fA9W"><value name="BOOL"><block type="variables_get" id="vQ`2rX0EA@EZ+*R=0;A("><field name="VAR" id="bw8~d$k?Um-[:F9?J)At">lightsOn</field></block></value></block></value><next><block type="controls_if" id="P%P85QeGJ]/R3ue.nuTr"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="variables_get" id="/#o_m3c%OW:N])AyoHR`"><field name="VAR" id="bw8~d$k?Um-[:F9?J)At">lightsOn</field></block></value><statement name="DO0"><block type="device_show_leds" id="^s@S4KLYWJC2}^?,D~]f"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><statement name="ELSE"><block type="device_clear_display" id="G]Zo@_e-pS/`+bvr.vne"/></statement></block></next></block></statement></block></xml>
